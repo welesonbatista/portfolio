@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Meu Portfolio</title>
 </head>
+
 <body>
-    <h1>
-        <?php
+<div>
 
-            $saudacao = "Hello";
-        
-            echo $saudacao . ", Weleson Batista";
+  <header>
+    <?php include ('./componentes/header.php'); ?>
+  </header>
 
-        ?>
-    </h1>
-    <p>
-        <?php
-        echo "weleson weleson";
-        ?>
-    </p>
+  <aside>Aside</aside>
+
+  <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ex turpis. Cras luctus nibh lectus, in ullamcorper ex tempor eleifend. Nulla bibendum, eros a consequat vestibulum, orci massa fermentum quam, sed commodo nunc ex vitae nisl. Aliquam ullamcorper interdum est nec tincidunt.</p>
+  </article>
+
+  <footer>Footer</footer>
+
+</div>
 </body>
 </html>
