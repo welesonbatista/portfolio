@@ -10,7 +10,25 @@
 </head>
 
 <body>
-    <div>weleson</div>
+
+    <header>
+        <!-- apresentação -->
+        <?php include('./components/header.php'); ?>
+    </header>
+
+    <main>
+        <!-- projects -->
+        <section>
+            <?php include('./components/projects.php'); ?>
+        </section>
+    </main>
+
+    <footer>
+        <!-- contact -->
+        <div>
+            <?php include('./components/contact.php'); ?>
+        </div>
+    </footer>
 </body>
 
 </html>
