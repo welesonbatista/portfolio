@@ -24,14 +24,16 @@
         <?php include('./components/hero.php'); ?>
     </header>
 
-    <main>
+    <main class="flex flex-col gap-14 pt-6 pb-36">
         <!-- projects -->
-        <section>
-            <?php include('./components/projects.php'); ?>
+        <section class="text-center">
+            <h3 class="font-inconsolata leading-120 text-xl text-red mb-2">Meu Trabalho</h3>
+            <h2 class="font-asap leading-120 font-bold text-2xl text-gray-600">Veja os projetos em destaque</h2>
         </section>
+        <?php include('./components/projects.php'); ?>
     </main>
 
-    <footer>
+    <footer class="text-center">
         <!-- contact -->
         <div>
             <?php include('./components/contact.php'); ?>

@@ -4,7 +4,10 @@ $profiles = [
         "avatar" => "https://github.com/welesonbatista.png",
         "name" => "Weleson Batista",
         "role" => "Desenvolvedor FullStack",
-        "about" => "Desenvolvo soluções digitais que transformam necessidades reais em aplicações práticas e funcionais. A tecnologia é o meio pelo qual crio sistemas eficientes, projetados para resolver desafios complexos com precisão e qualidade.",
+        "about" => "Desenvolvo soluções digitais que transformam necessidades reais em aplicações práticas e funcionais.
+         A tecnologia é o meio pelo qual crio sistemas eficientes, projetados para resolver desafios complexos com precisão
+         e qualidade.",
+
         "stacks" => [
             "GitHub" => "green",
             "Laravel" => "purple",
