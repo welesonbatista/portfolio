@@ -14,6 +14,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./tailwind.js"></script>
 
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script> 
+
     <title>Portfolio</title>
 </head>
 
@@ -33,11 +36,14 @@
         <?php include('./components/projects.php'); ?>
     </main>
 
-    <footer class="text-center">
+    <footer class="bg-contacts bg-cover bg-no-repeat bg-top py-24">
         <!-- contact -->
-        <div>
-            <?php include('./components/contact.php'); ?>
+        <div class="flex flex-col gap-2 text-center">
+            <h3 class="font-inconsolata leading-120 text-xl text-purple ">Contato</h3>
+            <h2 class="font-asap leading-120 font-bold text-2xl text-gray-600">Gostou do meu trabalho?</h2>
+            <p class="font-maven leading-140 text-base">Entre em contato ou acompanhe as minhas redes sociais!</p>
         </div>
+        <?php include('./components/contact.php'); ?>
     </footer>
 </body>
 

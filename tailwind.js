@@ -29,8 +29,10 @@ tailwind.config = {
             },
             boxShadow: {
                 'grayBorderHover': '0px 0px 0px 1.5px #878EA1',
-                'blueBorderHover': '0px 0px 0px 1.5px #3996DB',
+                'blueBorderHover': '0px 0px 0px 1.5px #3996DB',
+
             },
+
         }
     }
 }
